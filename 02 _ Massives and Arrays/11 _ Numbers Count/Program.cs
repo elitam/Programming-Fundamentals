@@ -13,24 +13,15 @@ namespace _11___Numbers_Count
             var numbers = Console.ReadLine().Split().Select(int.Parse).ToList();
             numbers.Sort();
             var result = new List<string>();
-            int count = 1;
+            int count = 0;
             for (int i = 0; i < numbers.Count ; i++)
             {
-                if (i == numbers.Count - 1)
+                count++;
+                if (i == numbers.Count - 1 || numbers[i] != numbers[i + 1])
                 {
                     var element = numbers[i];
                     result.Add($"{element} -> {count}");
-                    break;
-                }
-                if (numbers[i] == numbers[i + 1])
-                {
-                    count++;
-                }
-                else
-                {
-                    var element = numbers[i];
-                    result.Add($"{element} -> {count}");
-                    count = 1;
+                    count = 0;
                 }
             }
             Console.WriteLine(string.Join("\n", result));

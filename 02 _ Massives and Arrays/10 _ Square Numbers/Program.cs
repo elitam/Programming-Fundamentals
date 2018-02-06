@@ -14,13 +14,16 @@ namespace _10___Square_Numbers
             var result = new List<int>();
             foreach (var num in numbers)
             {
-                if(num == Math.Sqrt(num) * Math.Sqrt(num))
+                var numSqrt = Math.Sqrt(num);
+                if (numSqrt == Math.Round(numSqrt))
                 {
                     result.Add(num);
                 }
             }
-            result.Sort();
-            result.Reverse();
+
+            // descending / ascending sort 
+            result.Sort((a, b) => b.CompareTo(a));
+            
             Console.WriteLine(string.Join(", ", result));
 
         }
