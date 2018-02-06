@@ -10,27 +10,28 @@ namespace _sample
     {
         public static void Main()
         {
-            int[] nums = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();  
-            var count = nums.Length;
-            int[] reversed = new int[count];
-            for (int i = 0; i < count; i++)
-            {
-                reversed[i] = nums[nums.Length - 1 - i];
-            }
-            Console.WriteLine(String.Join(" ", reversed));
+            
 
         }
 
-        private static void Method1()
+        private static void DeDaZnam()
         {
-            int[] nums = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
-            for (int i = 0; i < nums.Length / 2; i++)
+            var names = new List<string> { "Sasho", "Maria", "Sasho", "Gosho" };
+            names.Add("Koko");
+            names.Add("Ceca");
+            names.Add("Dnn");
+
+            names.Remove("Maria");
+            names.RemoveAll(x => x == "Sasho");
+            Console.WriteLine(string.Join("; ", names));
+
+            var nums = Console.ReadLine().Trim().Split(' ').Select(int.Parse).ToList();
+
+            for (int i = 0; i < nums.Count; i++)
             {
-                int temporary = nums[nums.Length - 1 - i];
-                nums[nums.Length - 1 - i] = nums[i];
-                nums[i] = temporary;
+                Console.WriteLine($"nums[{i}] = {nums[i]}");
             }
-            Console.WriteLine(String.Join(" ", nums));
         }
+
     }
 }

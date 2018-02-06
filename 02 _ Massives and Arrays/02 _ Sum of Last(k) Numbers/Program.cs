@@ -23,7 +23,7 @@ namespace _02___Sum_of_Last_k__Numbers
                 }
                 nums[i] = sum;
             }
-            Console.WriteLine(String.Join(" ", nums));
+            Console.WriteLine(string.Join(" ", nums));
         }
     }
 }
