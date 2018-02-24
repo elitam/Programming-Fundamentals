@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1F51B7FB-5D44-421E-8FB3-B5756F5F2FAE}</ProjectGuid>
+    <ProjectGuid>{F9B59B01-148D-44EC-9F6F-0DF3512EF77B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_09___Bomb</RootNamespace>
-    <AssemblyName>09 _ Bomb</AssemblyName>
+    <RootNamespace>_03___ReverseMethod</RootNamespace>
+    <AssemblyName>03 _ ReverseMethod</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

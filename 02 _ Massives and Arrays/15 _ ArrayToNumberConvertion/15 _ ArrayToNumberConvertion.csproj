@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1F51B7FB-5D44-421E-8FB3-B5756F5F2FAE}</ProjectGuid>
+    <ProjectGuid>{005A1A5A-7479-427E-91E5-3E434003F2F9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_09___Bomb</RootNamespace>
-    <AssemblyName>09 _ Bomb</AssemblyName>
+    <RootNamespace>_15___ArrayToNumberConvertion</RootNamespace>
+    <AssemblyName>15 _ ArrayToNumberConvertion</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

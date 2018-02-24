@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1F51B7FB-5D44-421E-8FB3-B5756F5F2FAE}</ProjectGuid>
+    <ProjectGuid>{BB51C9C3-2304-4CD7-9E23-7544303A2B26}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_09___Bomb</RootNamespace>
-    <AssemblyName>09 _ Bomb</AssemblyName>
+    <RootNamespace>_01___Merlah_Shake</RootNamespace>
+    <AssemblyName>01 _ Merlah Shake</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

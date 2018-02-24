@@ -22,16 +22,15 @@ namespace _09___Bomb
                 if (numbers[i] == bomb)
                 {
                     var left = Math.Max(i - range, 0);
-                    
+
                     var right = Math.Min(i + range, numbers.Count - 1);
-                    
+
                     var lenght = right - left + 1;
                     numbers.RemoveRange(left, lenght);
                     i = 0;
                 }
             }
             Console.WriteLine(numbers.Sum());
-
         }
     }
 }

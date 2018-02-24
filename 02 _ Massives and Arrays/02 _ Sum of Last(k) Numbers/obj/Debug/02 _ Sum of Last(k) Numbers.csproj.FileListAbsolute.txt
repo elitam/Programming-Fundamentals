@@ -1,7 +1,0 @@
-D:\Elina\Soft Uni\02 _ Programming Fundamentals\02 _ Massives and Arrays\02 _ Sum of Last(k) Numbers\bin\Debug\02 _ Sum of Last(k) Numbers.exe.config
-D:\Elina\Soft Uni\02 _ Programming Fundamentals\02 _ Massives and Arrays\02 _ Sum of Last(k) Numbers\bin\Debug\02 _ Sum of Last(k) Numbers.exe
-D:\Elina\Soft Uni\02 _ Programming Fundamentals\02 _ Massives and Arrays\02 _ Sum of Last(k) Numbers\bin\Debug\02 _ Sum of Last(k) Numbers.pdb
-D:\Elina\Soft Uni\02 _ Programming Fundamentals\02 _ Massives and Arrays\02 _ Sum of Last(k) Numbers\obj\Debug\02 _ Sum of Last(k) Numbers.csprojResolveAssemblyReference.cache
-D:\Elina\Soft Uni\02 _ Programming Fundamentals\02 _ Massives and Arrays\02 _ Sum of Last(k) Numbers\obj\Debug\02 _ Sum of Last(k) Numbers.csproj.CoreCompileInputs.cache
-D:\Elina\Soft Uni\02 _ Programming Fundamentals\02 _ Massives and Arrays\02 _ Sum of Last(k) Numbers\obj\Debug\02 _ Sum of Last(k) Numbers.exe
-D:\Elina\Soft Uni\02 _ Programming Fundamentals\02 _ Massives and Arrays\02 _ Sum of Last(k) Numbers\obj\Debug\02 _ Sum of Last(k) Numbers.pdb

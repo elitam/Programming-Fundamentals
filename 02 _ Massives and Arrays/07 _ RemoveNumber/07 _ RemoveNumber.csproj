@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1F51B7FB-5D44-421E-8FB3-B5756F5F2FAE}</ProjectGuid>
+    <ProjectGuid>{C7355AB5-4E6A-44ED-9538-F9E054CA373F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_09___Bomb</RootNamespace>
-    <AssemblyName>09 _ Bomb</AssemblyName>
+    <RootNamespace>_07___RemoveNumber</RootNamespace>
+    <AssemblyName>07 _ RemoveNumber</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

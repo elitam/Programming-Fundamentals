@@ -1,7 +1,0 @@
-D:\Elina\Soft Uni\02 _ Programming Fundamentals\02 _ Massives and Arrays\01 _ Edit Massive\bin\Debug\01 _ Edit Massive.exe.config
-D:\Elina\Soft Uni\02 _ Programming Fundamentals\02 _ Massives and Arrays\01 _ Edit Massive\bin\Debug\01 _ Edit Massive.exe
-D:\Elina\Soft Uni\02 _ Programming Fundamentals\02 _ Massives and Arrays\01 _ Edit Massive\bin\Debug\01 _ Edit Massive.pdb
-D:\Elina\Soft Uni\02 _ Programming Fundamentals\02 _ Massives and Arrays\01 _ Edit Massive\obj\Debug\01 _ Edit Massive.csprojResolveAssemblyReference.cache
-D:\Elina\Soft Uni\02 _ Programming Fundamentals\02 _ Massives and Arrays\01 _ Edit Massive\obj\Debug\01 _ Edit Massive.csproj.CoreCompileInputs.cache
-D:\Elina\Soft Uni\02 _ Programming Fundamentals\02 _ Massives and Arrays\01 _ Edit Massive\obj\Debug\01 _ Edit Massive.exe
-D:\Elina\Soft Uni\02 _ Programming Fundamentals\02 _ Massives and Arrays\01 _ Edit Massive\obj\Debug\01 _ Edit Massive.pdb
