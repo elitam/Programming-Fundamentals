@@ -11,19 +11,38 @@ namespace _06___NumsAndLettersCalc
         static void Main(string[] args)
         {
             var words = Console.ReadLine().Split().Where(x => x != "").ToList();
-            //var totalSum = 0;
+            var totalSum = 0.00;
+
 
             foreach (var word in words)
             {
+                var currentSum = 0.00;
                 char firstLetter = word[0];
                 char lastLetter = word.Last();
-                int num = int.Parse(word.Substring(1, word.Count() - 2));
-                var currentSum = 0;
+                double num = double.Parse(word.Substring(1, word.Count() - 2));
+
                 if (char.IsUpper(firstLetter))
                 {
-                    currentSum += num / (firstLetter - 97);
+                    currentSum += num / (firstLetter - 64);
                 }
+                else
+                {
+                    currentSum += num * (firstLetter - 96);
+
+                }
+                if (char.IsUpper(lastLetter))
+                {
+                    currentSum -= (lastLetter - 64);
+                }
+                else
+                {
+                    currentSum += (lastLetter - 96);
+
+                }
+                totalSum += currentSum;
+
             }
+            Console.WriteLine($"{totalSum:f2}");
 
 
         }

@@ -5,9 +5,15 @@ VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Phoenix", "1_Phoenix\1_Phoenix.csproj", "{4C7BC167-4F12-4118-8C03-2C93DE9FF745}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Icarus", "3_Icarus\3_Icarus.csproj", "{244A943B-DD62-4886-8C4C-555E1F62FD93}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Icarus", "3_Icarus\2_Icarus.csproj", "{244A943B-DD62-4886-8C4C-555E1F62FD93}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_ComparationCode", "_ComparationCode\_ComparationCode.csproj", "{64231D03-85F3-4B55-8E6B-887FA6861BAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_Phoenixes", "0_Phoenixes", "{78EC4480-B668-4BE4-B192-0EB829C775D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Raindrops", "1_Raindrops\1_Raindrops.csproj", "{14DDF73E-A8CD-4AD0-87E3-BA3BCF947108}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_Rain", "1_Rain", "{F7162919-F71F-4001-8618-F8EE8AB3E6FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +33,19 @@ Global
 		{64231D03-85F3-4B55-8E6B-887FA6861BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64231D03-85F3-4B55-8E6B-887FA6861BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64231D03-85F3-4B55-8E6B-887FA6861BAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14DDF73E-A8CD-4AD0-87E3-BA3BCF947108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14DDF73E-A8CD-4AD0-87E3-BA3BCF947108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14DDF73E-A8CD-4AD0-87E3-BA3BCF947108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14DDF73E-A8CD-4AD0-87E3-BA3BCF947108}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C7BC167-4F12-4118-8C03-2C93DE9FF745} = {78EC4480-B668-4BE4-B192-0EB829C775D0}
+		{244A943B-DD62-4886-8C4C-555E1F62FD93} = {78EC4480-B668-4BE4-B192-0EB829C775D0}
+		{64231D03-85F3-4B55-8E6B-887FA6861BAA} = {78EC4480-B668-4BE4-B192-0EB829C775D0}
+		{14DDF73E-A8CD-4AD0-87E3-BA3BCF947108} = {F7162919-F71F-4001-8618-F8EE8AB3E6FB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF4F6B72-3198-4439-986B-342DFB794C87}

@@ -13,10 +13,9 @@ namespace _3_Icarus
         static void Main(string[] args)
         {
             var plane = Console.ReadLine().Trim().Split().Select(int.Parse).ToList();
-            var position = int.Parse(Console.ReadLine()) ;
+            var position = int.Parse(Console.ReadLine());
 
-            var isSupernova = false;
-            while (!isSupernova)
+            while (true)
             {
                 var command = Console.ReadLine().Split().ToList();
                 if (command[0] == "Supernova")
@@ -36,12 +35,11 @@ namespace _3_Icarus
                         position = StepToLeft(plane, position, steps);
                         break;
                     default:
-                        Console.WriteLine("bye bye");
                         break;
                 }
-                 //Console.WriteLine(string.Join(" ", plane));
+                 // Console.WriteLine(string.Join(" ", plane));
             }
-            Console.WriteLine(string.Join(" ", plane));
+             Console.WriteLine(string.Join(" ", plane));
         }
 
         private static int StepToLeft(List<int> plane, int position, int steps)
@@ -56,7 +54,10 @@ namespace _3_Icarus
                     position = plane.Count - 1;
                     damage++;
                 }
-                plane[position] -= damage;
+               
+               // plane[position] = Math.Max(0, plane[position] - damage);
+               plane[position] -= damage;
+
             }
 
             return position;
@@ -72,7 +73,10 @@ namespace _3_Icarus
                     position = 0;
                     damage++;
                 }
-                plane[position] -= damage;
+               
+                // plane[position] = Math.Max(0, plane[position] - damage);
+               plane[position] -= damage;
+
 
             }
 
